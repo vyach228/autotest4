@@ -6,6 +6,7 @@ public interface Locators {
 
     public interface MainPage {
         By BUTTON = By.xpath("(//span[contains(text(),'Форум')])[1]");
+        By BUTTON2 = By.xpath("(//a[@title='Википедия:Опросы'][contains(text(),'Опросы')])[1]");
     }
 
     public interface SearchResultPage {

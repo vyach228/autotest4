@@ -24,6 +24,7 @@ public class SmokeTest {
 
         String headerText = mainPage
                 .clickInButtonField()
+                .clickInButtonField2()
                 .getHeaderText();
         String assertionError = null;
         try {
@@ -39,7 +40,6 @@ public class SmokeTest {
         else {
             System.out.println("Тестирование прошло успешно");
         }
-
     }
 
 
